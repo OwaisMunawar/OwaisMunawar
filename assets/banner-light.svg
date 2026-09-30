@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<rect width="1280" height="320" rx="16" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="1279" height="319" rx="16" fill="none" stroke="#d1d9e0"/>
+<rect x="64" y="72" width="6" height="96" rx="3" fill="#0969da"/>
+<text x="92" y="118" font-size="52" font-weight="700" fill="#1f2328" letter-spacing="-1">Owais Munawwar</text>
+<text x="94" y="160" font-size="24" fill="#59636e">Mobile apps with real AI inside — shipped since 2011.</text>
+<rect x="64" y="212" width="230" height="40" rx="20" fill="#f6f8fa" stroke="#d1d9e0"/><text x="179.0" y="238" text-anchor="middle" font-size="17" font-weight="600" fill="#1f2328">React Native · Expo</text><rect x="318" y="212" width="198" height="40" rx="20" fill="#f6f8fa" stroke="#d1d9e0"/><text x="417.0" y="238" text-anchor="middle" font-size="17" font-weight="600" fill="#1f2328">AI inside the app</text><rect x="540" y="212" width="206" height="40" rx="20" fill="#f6f8fa" stroke="#d1d9e0"/><text x="643.0" y="238" text-anchor="middle" font-size="17" font-weight="600" fill="#1f2328">Native iOS · Swift</text>
+<g transform="translate(1040 60)" fill="none" stroke="#0969da" stroke-width="3" opacity="0.9">
+<rect x="0" y="0" width="120" height="200" rx="22"/>
+<rect x="44" y="12" width="32" height="6" rx="3" fill="#0969da" stroke="none"/>
+<rect x="18" y="40" width="70" height="18" rx="9"/>
+<rect x="32" y="70" width="70" height="18" rx="9" fill="#0969da" fill-opacity="0.25"/>
+<rect x="18" y="100" width="56" height="18" rx="9"/>
+<circle cx="60" cy="168" r="12"/>
+</g>
+</svg>
