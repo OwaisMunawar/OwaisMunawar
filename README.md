@@ -18,6 +18,7 @@ My last two App Store products each took **1–2 weeks to build**. App Review th
 - **[expo-ai-assistant](https://github.com/OwaisMunawar/expo-ai-assistant)**: streaming multi-model AI chat for iOS, Android and web in one Expo codebase. The API key stays on a server route; a demo mode runs the full pipeline with no key.
 - **[expo-smart-scan](https://github.com/OwaisMunawar/expo-smart-scan)**: an Expo native module for on-device receipt and document scanning. Swift uses Apple Vision and Foundation Models, Kotlin uses ML Kit. Model output is checked against the recognized text.
 - **[rn-booking](https://github.com/OwaisMunawar/rn-booking)**: a booking product with an Expo app, a Next.js admin panel and Supabase. Row-level security per role, double-booking blocked by a Postgres exclusion constraint, and an AI concierge that books through tool calls.
+- **[review-radar](https://github.com/OwaisMunawar/review-radar)**: a Python AI agent (FastAPI, PydanticAI, pgvector) with a React dashboard. It triages App Store and Google Play reviews, clusters themes, flags release regressions with real statistics, and drafts replies a person approves. Evals run in CI.
 - **[durable-agent](https://github.com/OwaisMunawar/durable-agent)**: crash-safe LLM pipelines on Postgres. Leased workers, each stage committed before the next, human approval gates, an append-only audit log and an MCP server.
 - **[swiftui-live-coach](https://github.com/OwaisMunawar/swiftui-live-coach)**: native iOS 26 with SwiftData, Live Activities and Dynamic Island, interactive widgets, App Intents, HealthKit and on-device Foundation Models.
 - **[react-native-streaming-markdown](https://github.com/OwaisMunawar/react-native-streaming-markdown)**: renders streaming LLM output without flicker. The incremental parser is about 60x faster than re-parsing on every token.
@@ -52,6 +53,6 @@ My last two App Store products each took **1–2 weeks to build**. App Review th
 - **Tested on real hardware, never only a simulator.** Three bugs got past a thorough simulator run on one of my apps and appeared only on a device — a missing URL scheme, a permissions library that compiled every permission out of the build, a share sheet that threw on a zero anchor rect. Each fix was one line; the cost was the finding.
 - **Every fix ships with a test that fails against the old code.** A check that passes before and after a fix is proving only that it ran.
 
-**Stack:** React Native (Expo) · TypeScript · Swift / SwiftUI · Flutter / Dart · Next.js · Supabase / Postgres · Python / FastAPI · OpenAI / Anthropic · Core ML · Stripe / RevenueCat / StoreKit
+**Stack:** React Native (Expo) · TypeScript · Swift / SwiftUI · Flutter / Dart · Next.js · Supabase / Postgres · Python / FastAPI / PydanticAI · OpenAI / Anthropic · Core ML · Stripe / RevenueCat / StoreKit
 
 📫 **Work with me:** [Upwork](https://www.upwork.com/freelancers/owaism11) · [LinkedIn](https://www.linkedin.com/in/owais-munawwar-6236a342) · owais.munawar@gmail.com
