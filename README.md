@@ -13,16 +13,27 @@ My last two App Store products each took **1–2 weeks to build**. App Review th
 
 ---
 
-**📂 Open source: code you can run**
+**📂 Open source: mobile apps you can run**
+
+*React Native*
 
 - **[expo-ai-assistant](https://github.com/OwaisMunawar/expo-ai-assistant)**: streaming multi-model AI chat for iOS, Android and web in one Expo codebase. The API key stays on a server route; a demo mode runs the full pipeline with no key.
 - **[expo-smart-scan](https://github.com/OwaisMunawar/expo-smart-scan)**: an Expo native module for on-device receipt and document scanning. Swift uses Apple Vision and Foundation Models, Kotlin uses ML Kit. Model output is checked against the recognized text.
-- **[fixit-genui](https://github.com/OwaisMunawar/fixit-genui)**: a Flutter home-repair assistant whose answers are interactive UI, not paragraphs. Google's GenUI SDK with Gemini, a schema-validated widget catalog, safety checks that always add a pro callout for electrical and gas jobs, and offline jobs with drift.
 - **[rn-booking](https://github.com/OwaisMunawar/rn-booking)**: a booking product with an Expo app, a Next.js admin panel and Supabase. Row-level security per role, double-booking blocked by a Postgres exclusion constraint, and an AI concierge that books through tool calls.
+- **[react-native-streaming-markdown](https://github.com/OwaisMunawar/react-native-streaming-markdown)**: renders streaming LLM output without flicker. The incremental parser is about 60x faster than re-parsing on every token.
+
+*Native iOS*
+
+- **[swiftui-live-coach](https://github.com/OwaisMunawar/swiftui-live-coach)**: native iOS 26 with SwiftData, Live Activities and Dynamic Island, interactive widgets, App Intents, HealthKit and on-device Foundation Models.
+
+*Flutter*
+
+- **[fixit-genui](https://github.com/OwaisMunawar/fixit-genui)**: a Flutter home-repair assistant whose answers are interactive UI, not paragraphs. Google's GenUI SDK with Gemini, a schema-validated widget catalog, safety checks that always add a pro callout for electrical and gas jobs, and offline jobs with drift.
+
+*Also: AI agents*
+
 - **[review-radar](https://github.com/OwaisMunawar/review-radar)**: a Python AI agent (FastAPI, PydanticAI, pgvector) with a React dashboard. It triages App Store and Google Play reviews, clusters themes, flags release regressions with real statistics, and drafts replies a person approves. Evals run in CI.
 - **[durable-agent](https://github.com/OwaisMunawar/durable-agent)**: crash-safe LLM pipelines on Postgres. Leased workers, each stage committed before the next, human approval gates, an append-only audit log and an MCP server.
-- **[swiftui-live-coach](https://github.com/OwaisMunawar/swiftui-live-coach)**: native iOS 26 with SwiftData, Live Activities and Dynamic Island, interactive widgets, App Intents, HealthKit and on-device Foundation Models.
-- **[react-native-streaming-markdown](https://github.com/OwaisMunawar/react-native-streaming-markdown)**: renders streaming LLM output without flicker. The incremental parser is about 60x faster than re-parsing on every token.
 
 **📱 Shipped mobile**
 
