@@ -18,6 +18,7 @@ My last two App Store products each took **1–2 weeks to build**. App Review th
 *React Native*
 
 - **[murmur](https://github.com/OwaisMunawar/murmur)**: a private voice journal where nothing leaves the phone. On-device Whisper transcribes, a local LLM writes summaries and action items, and "Ask your notes" answers with citations, all on-device with ExecuTorch. A live Skia waveform too.
+- **[tandem](https://github.com/OwaisMunawar/tandem)**: a local-first household planner. It works fully offline, syncs in real time across phones, and merges concurrent edits with CRDTs (TinyBase). Live presence, AI quick-add ("pay rent Friday, Sam does dishes daily"), an iOS home-screen widget and a self-hostable sync server.
 - **[expo-ai-assistant](https://github.com/OwaisMunawar/expo-ai-assistant)**: streaming multi-model AI chat for iOS, Android and web in one Expo codebase. The API key stays on a server route; a demo mode runs the full pipeline with no key.
 - **[expo-smart-scan](https://github.com/OwaisMunawar/expo-smart-scan)**: an Expo native module for on-device receipt and document scanning. Swift uses Apple Vision and Foundation Models, Kotlin uses ML Kit. Model output is checked against the recognized text.
 - **[rn-booking](https://github.com/OwaisMunawar/rn-booking)**: a booking product with an Expo app, a Next.js admin panel and Supabase. Row-level security per role, double-booking blocked by a Postgres exclusion constraint, and an AI concierge that books through tool calls.
