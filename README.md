@@ -27,6 +27,7 @@ My last two App Store products each took **1–2 weeks to build**. App Review th
 
 *Native iOS*
 
+- **[tally](https://github.com/OwaisMunawar/tally)**: a native iOS 26 finance app where the AI runs on the phone. Apple Foundation Models answers questions by calling typed tools over your own data, and every figure is checked against them. Liquid Glass, Swift Charts, Metal shader cards, App Intents, an interactive widget and a Control Center control.
 - **[swiftui-live-coach](https://github.com/OwaisMunawar/swiftui-live-coach)**: native iOS 26 with SwiftData, Live Activities and Dynamic Island, interactive widgets, App Intents, HealthKit and on-device Foundation Models.
 
 *Flutter*
