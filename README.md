@@ -34,8 +34,9 @@ My last two App Store products each took **1–2 weeks to build**. App Review th
 
 - **[fixit-genui](https://github.com/OwaisMunawar/fixit-genui)**: a Flutter home-repair assistant whose answers are interactive UI, not paragraphs. Google's GenUI SDK with Gemini, a schema-validated widget catalog, safety checks that always add a pro callout for electrical and gas jobs, and offline jobs with drift.
 
-*Also: AI agents and libraries*
+*Also: AI agents, automation and libraries*
 
+- **[devicelab](https://github.com/OwaisMunawar/devicelab)**: a control plane for automating workflows across a fleet of iPhones in different locations. A Postgres job queue with leases, outbound host agents, an Appium / WebDriverAgent executor, error recovery, schedules, alerts and a live React dashboard. Load-tested with 50 simulated devices and run on a real iPhone.
 - **[review-radar](https://github.com/OwaisMunawar/review-radar)**: a Python AI agent (FastAPI, PydanticAI, pgvector) with a React dashboard. It triages App Store and Google Play reviews, clusters themes, flags release regressions with real statistics, and drafts replies a person approves. Evals run in CI.
 - **[durable-agent](https://github.com/OwaisMunawar/durable-agent)**: crash-safe LLM pipelines on Postgres. Leased workers, each stage committed before the next, human approval gates, an append-only audit log and an MCP server.
 - **[react-native-streaming-markdown](https://github.com/OwaisMunawar/react-native-streaming-markdown)**: renders streaming LLM output without flicker. The incremental parser is about 60x faster than re-parsing on every token.
