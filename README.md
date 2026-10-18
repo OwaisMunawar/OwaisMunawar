@@ -32,6 +32,7 @@ My last two App Store products each took **1–2 weeks to build**. App Review th
 
 *Flutter*
 
+- **[fieldbook](https://github.com/OwaisMunawar/fieldbook)**: a Flutter inspection notebook for iOS. Real Apple Vision OCR links recognized text to source images; on-device Foundation Models proposes actions whose quotes are checked before inspector review. Revision-checked SQLite history, local evidence search and portable JSON handover reports, with a keyless demo.
 - **[fixit-genui](https://github.com/OwaisMunawar/fixit-genui)**: a Flutter home-repair assistant whose answers are interactive UI, not paragraphs. Google's GenUI SDK with Gemini, a schema-validated widget catalog, safety checks that always add a pro callout for electrical and gas jobs, and offline jobs with drift.
 
 *Also: AI agents, automation and libraries*
